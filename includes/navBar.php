@@ -2,8 +2,10 @@
     <div class="container-fluid">
         <div class="row middle-xs">
             <div class="col-xs-12 col-sm-6 col-md-6 center-xs start-sm">
-                <!-- <img class="logo_img" src="img/upes.png" alt="logo" width="50px"> -->
-                <h2 class="logo_text">UPES - <span class="color_white" id="hour"></span></h2>
+                <div class="inline_block">
+                    <img class="logo_img" src="img/upes.png" alt="logo">
+                    <h2 class="logo_text"><span class="hidden-xs" style="float:left;">UPES - </span><span class="color_white" id="hour"></span></h2>
+                </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-6">
                 <div class="row center-xs end-sm middle-xs">
