@@ -1,8 +1,8 @@
 <?php
     $title = "Dashboard - UPES";
 
-    include 'templates/head.php';
-    include 'templates/navBar.php';
+    include 'includes/head.php';
+    include 'includes/navBar.php';
 ?>
     
     <section class="content container-fluid">
@@ -10,5 +10,5 @@
     </section>
 
 <?php
-    include 'templates/end.php';
+    include 'includes/end.php';
 ?>
