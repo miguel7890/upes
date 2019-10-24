@@ -11,27 +11,29 @@
 </head>
 <body class="bg_login">
     
-    <section class="navBar container-fluid" id="nav">
+    <section class="navBar" id="nav">
 
-        <div class="row middle-xs">
-            <div class="col-xs-12 col-sm-6 col-md-8 center-xs start-sm">
-                <!-- <img class="logo_img" src="img/upes.png" alt="logo" width="50px"> -->
-                <h2 class="logo_text">UPES</h2>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 center-xs end-sm">
-                <form action="">
-                    <div class="row middle-xs">
-                        <div class="col-xs-5 col-sm-5 col-md-5 center-xs">
-                            <input type="text" class="input_primary" placeholder="Usuario">
-                        </div>
-                        <div class="col-xs-5 col-sm-5 col-md-5 center-xs">
-                            <input type="text" class="input_primary" placeholder="Contraseña">
-                        </div>
-                        <div class="col-xs-2 col-sm-2 col-md-2 center-xs">
-                            <button class="btn_icon_primary"><i class="material-icons">send</i></button>
-                        </div>
-                    </div>  
-                </form>
+        <div class="container-fluid">
+            <div class="row middle-xs">
+                <div class="col-xs-12 col-sm-6 col-md-8 center-xs start-sm">
+                    <!-- <img class="logo_img" src="img/upes.png" alt="logo" width="50px"> -->
+                    <h2 class="logo_text">UPES</h2>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 center-xs end-sm">
+                    <form action="">
+                        <div class="row middle-xs">
+                            <div class="col-xs-5 col-sm-5 col-md-5 center-xs">
+                                <input type="text" class="input_primary" placeholder="Usuario">
+                            </div>
+                            <div class="col-xs-5 col-sm-5 col-md-5 center-xs">
+                                <input type="text" class="input_primary" placeholder="Contraseña">
+                            </div>
+                            <div class="col-xs-2 col-sm-2 col-md-2 center-xs">
+                                <button class="btn_icon_primary"><i class="material-icons">send</i></button>
+                            </div>
+                        </div>  
+                    </form>
+                </div>
             </div>
         </div>
 
@@ -49,7 +51,7 @@
 
 <?php if(!empty($_GET['type'])=="register"){ ?>
                 <div class="row center-xs">
-                    <div class="col-xs-12">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <h3 class="color_primary">INSCRIPCIÓN</h3>
                         <form action="">                        
                             <div>
@@ -105,7 +107,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-xs-12">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <div class="box_default">
                             <h3 class="margin_none color_primary">Titulo del evento</h3>
                             <p class="justify-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus aperiam nam odio non ipsa qui dolores. Vero quas, eveniet numquam tenetur ad dicta est quo? Reiciendis repellat illo dolores reprehenderit.</p>
