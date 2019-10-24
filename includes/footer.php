@@ -10,8 +10,8 @@
                 <p class="margin_none"><b>Teléfono: </b>2231-0000 2233-0020</p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 center-xs end-sm">
-                <button><img src="img/fb.png" width="40px" height="40px"></button>
-                <button><img src="img/tw.png" width="40px" height="40px"></button>
+                <button><img src="img/fb_w.png" width="40px" height="40px"></button>
+                <button><img src="img/tw_w.png" width="40px" height="40px"></button>
             </div>
         </div>
     </div>
