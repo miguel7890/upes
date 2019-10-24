@@ -16,7 +16,7 @@ El siguiente proyecto pretende presentar una solución a la sociedad educativa a
 + Mejorar la educación semipresencial.
 + Ser un aula web vanguardista y funcional para la enseñanza y aprendizaje.
 
-##PARTICIPANTES
+##PROGRAMADORES A CARGO
 
 + José Lorenzo López De Paz.
 + Leonel Alexander Menjivar Canales.
