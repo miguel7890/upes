@@ -20,7 +20,7 @@ function hour_now(){
             var resp = JSON.parse(connection.responseText);
             var now = resp.date;
 
-            var hour = moment(now,"YYYY-MM-DD LTS").subtract(240, 'seconds').format("LT");
+            var hour = moment(now,"YYYY-MM-DD LTS").format("LT");
 
             if(document.getElementById('hour')){
                 document.getElementById('hour').innerHTML = hour;
