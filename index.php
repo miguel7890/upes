@@ -15,9 +15,13 @@
 
         <div class="container-fluid">
             <div class="row middle-xs">
-                <div class="col-xs-12 col-sm-6 col-md-8 center-xs start-sm">
-                    <!-- <img class="logo_img" src="img/upes.png" alt="logo" width="50px"> -->
-                    <h2 class="logo_text">UPES</h2>
+                <div class="col-xs-12 col-sm-6 col-md-8 center-xs start-sm start-md">
+                    <div class="col-xs-12 col-sm-6 col-md-6 center-xs start-sm">
+                        <div class="inline_block">
+                            <img class="logo_img" src="img/upes.png" alt="logo">
+                            <h2 class="logo_text"><span class="hidden-xs" style="float:left;">UPES </span></h2>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 center-xs end-sm">
                     <form action="">
@@ -119,8 +123,6 @@
         </div>
 
     </section>
-
-    <input type="hidden" id="date">
     <script src="lib/moment.min.js"></script>
     <script src="js/main.js"></script>
 </body>
