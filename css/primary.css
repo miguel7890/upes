@@ -94,7 +94,7 @@ hr {
 /* VARIABLES ------- */
 
 :root{
-    --color_primary: #354A9B;
+    --color_primary: #002366;
     --color_secondary: #FAF203;
     --color_tertiary: #BFBFBF;
     --color_subtitle: #616161;
@@ -135,11 +135,22 @@ hr {
 }
 
 .logo_img{
+    float: left;
+    height: 40px;
     margin-bottom:0;
+    margin-top: 15px;
+    margin-right: 10px;
 }
 
 .logo_text {
+    float:left;
+    width: auto;
+    text-align: left;
     color: var(--color_secondary);
+}
+
+.inline_block {
+    display: inline-block;
 }
 
 @media(max-width:720px){
@@ -152,6 +163,9 @@ hr {
     }
     .logo_img {
         margin-bottom: 10px;
+    }
+    .logo_text {
+        text-align: center;
     }
     hr {
         width: 90%;
@@ -292,4 +306,5 @@ footer {
     color: white;
     padding: 20px 10px;
     background: var(--color_primary);
+    border-bottom: 6px solid var(--color_secondary);
 }
