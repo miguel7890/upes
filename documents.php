@@ -1,4 +1,6 @@
 <?php 
+
+    include 'fn/verifySession.php';
     $title = "Documentos - UPES";
     include 'includes/head.php';
     include 'includes/navBar.php';
@@ -13,6 +15,8 @@
                     <p class="margin_none color_subtitle">Oliver Rivas Menjívar</p>
                 </div>
             </div>
+
+            <?php include 'includes/course_components.php'; ?>
 
             <hr>
 
