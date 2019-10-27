@@ -1,8 +1,10 @@
 <?php
-$title = "Curso - UPES";
 
-include 'includes/head.php';
-include 'includes/navBar.php';
+    include 'fn/verifySession.php';
+    $title = "Curso - UPES";
+
+    include 'includes/head.php';
+    include 'includes/navBar.php';
 
  ?>
 
@@ -30,71 +32,11 @@ include 'includes/navBar.php';
         </section>
     </div>
     <div class="container-fluid">
-        <section class="row">
-            <div class="col-xs-12">
-                <button class="btn_option">
-                    <div class="row middle-xs center-xs">
-                        <div class="col-xs-3 col-md-3">
-                        <i class="material-icons">dashboard</i> 
-                        </div>
-                        <div class="col-xs-9 col-md-9">
-                        <p class="margin_none">Pagina Principal</p>  
-                        </div>
-                    </div>    
-                </button>
-                <button class="btn_option">
-                    <div class="row middle-xs center-xs">
-                        <div class="col-xs-3 col-md-3">
-                        <i class="material-icons">folder</i> 
-                        </div>
-                        <div class="col-xs-9 col-md-9">
-                        <p class="margin_none">Documentos</p>  
-                        </div>
-                    </div>    
-                </button>
-                <button class="btn_option">
-                    <div class="row middle-xs center-xs">
-                        <div class="col-xs-3 col-md-3">
-                        <i class="material-icons">device_hub</i> 
-                        </div>
-                        <div class="col-xs-6 col-md-9">
-                        <p class="margin_none">Secuencias de aprendizaje</p>  
-                        </div>
-                    </div>    
-                </button>
-                <button class="btn_option">
-                    <div class="row middle-xs center-xs">
-                        <div class="col-xs-3 col-md-3">
-                        <i class="material-icons">chat_bubble</i>
-                        </div>
-                        <div class="col-xs-9 col-md-9">
-                        <p class="margin_none">Foros</p>  
-                        </div>
-                    </div>    
-                </button>
-                <button class="btn_option">
-                    <div class="row middle-xs center-xs">
-                        <div class="col-xs-3 col-md-3">
-                        <i class="material-icons">group</i>
-                        </div>
-                        <div class="col-xs-9 col-md-9">
-                        <p class="margin_none">Grupos</p>  
-                        </div>
-                    </div>    
-                </button>
-                <button class="btn_option">
-                    <div class="row middle-xs center-xs">
-                        <div class="col-xs-3 col-md-3">
-                        <i class="material-icons">emoji_people</i>
-                        </div>
-                        <div class="col-xs-9 col-md-9">
-                        <p class="margin_none">Participantes</p>  
-                        </div>
-                    </div>    
-                </button>
-            </div>
-        </section>
+
+        <?php include 'includes/course_components.php'; ?>
+
         <hr>
+        
         <div class="row">
            <div class="col-xs-12 col-sm-12 col-md-6">
                <div class="box_default">
@@ -104,7 +46,7 @@ include 'includes/navBar.php';
                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat ex facere eius aut molestiae expedita sint suscipit rem a recusandae sunt dolore accusamus reprehenderit voluptatem sequi esse tempore, aliquam minima!
                    </p>
                    <div class="img_preview">
-                     <img src="img/banner.jpg">  
+                     <img src="img/programa_mensual.png">  
                    </div>
                    <div class="center-xs box_separator">
                        <button class="btn_icon_primary"><i class="material-icons">more_horiz</i></button>
