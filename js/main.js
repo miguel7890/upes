@@ -33,4 +33,27 @@ function hour_now(){
 
 hour_now();
 
+var more_btns = document.querySelectorAll('[id=btn_more]');
+var leave_div = document.querySelectorAll('[id=leave_mouse]');
+
+for (let index = 0; index < more_btns.length; index++) {
+    more_btns[index].addEventListener("click", see, false);
+    leave_div[index].addEventListener("mouseleave", see, false);
+}
+
+function see(){
+  var id = this.getAttribute('data-id');
+  var type = this.getAttribute('data-type');
+  var box = document.getElementById('more_options_'+id);
+
+  if(type == 'c'){
+    box.className = "more_btn_hidden";
+  } else {
+  if(box.className!="more_btn_hidden"){
+          box.className="more_btn_hidden";
+  } else {
+          box.className="more_btn";            
+  }
+  }
+}
 
